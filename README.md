@@ -1,5 +1,7 @@
 # RaidVisualizer
 
+![](src/main/resources/assets/raidvisualizer/thumbnail.png)
+
 This is a fabric mod for Minecraft Java 1.16.1. Its purpose is to practice raids for all advancements speedrunning.
 
 The mod shows the following things with the following colors:
