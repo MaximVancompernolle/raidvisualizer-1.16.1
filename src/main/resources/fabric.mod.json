@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "raidvisualizer",
+	"version": "${version}",
+	"name": "raidvisualizer",
+	"description": "Visualize raid information for raid practice.",
+	"authors": [
+		"PacManMVC"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/raidvisualizer/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"pacmanmvc.raidvisualizer.Raidvisualizer"
+		]
+	},
+	"mixins": [
+		"raidvisualizer.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.5",
+		"minecraft": "~1.16.1",
+		"java": ">=8"
+	},
+	"suggests": {
+		"another-mod": "*"
+	},
+	"accessWidener": "raidvisualizer.accesswidener"
+}
